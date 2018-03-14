@@ -15,6 +15,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(130, 130, 130);
+	line-height: 25px;
 }
 
 #header .btn {
@@ -26,6 +27,10 @@ body {
 
 #header .btn:hover {
 	background-color: rgb(84, 180, 84);
+}
+
+#header h1 {
+	line-height: 70px;
 }
 
 #header a {
@@ -44,7 +49,7 @@ body {
 }
 
 #header {
-	background: #ccc no-repeat;
+	background: #ccc no-repeat fixed;
 	background-size: cover;
 	color: #ffffff;
 	width: 100%;

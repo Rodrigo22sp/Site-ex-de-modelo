@@ -1,0 +1,9 @@
+@import url('../styles.css');
+
+#header.page-equipe {
+	background-image: url("../../images/background-equipe.jpg");
+}
+
+main section.section {
+	background-color: #f3f0e7;
+}
