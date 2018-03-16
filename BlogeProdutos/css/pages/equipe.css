@@ -4,6 +4,21 @@
 	background-image: url("../../images/background-equipe.jpg");
 }
 
-main section.section {
+#nossa-equipe {
 	background-color: #f3f0e7;
+}
+
+#nossa-equipe .img-box-round {
+	width: 120px;
+	height: 120px;
+	border: 2px solid rgb(84, 209, 84); 
+}
+
+#nossa-equipe .img-box-label:before {
+	display: none;
+
+}
+
+#nossa-equipe .row:first-child {
+	margin-bottom: 40px;
 }

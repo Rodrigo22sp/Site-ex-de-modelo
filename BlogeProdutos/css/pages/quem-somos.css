@@ -28,3 +28,6 @@
 	display: none;
 }
 
+.section .moldura {
+	border-radius: 7px;
+}
