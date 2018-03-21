@@ -22,3 +22,28 @@
 #nossa-equipe .row:first-child {
 	margin-bottom: 40px;
 }
+
+.nossa-equipe-member {
+	position: relative;
+}
+
+.nossa-equipe-member:hover .description {
+	display: block;
+}
+
+.nossa-equipe-member .description {
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 5px solid rgba(0, 0, 0, 0.3);
+	color: white;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 99;
+	width: 400px;
+}
+
+.nossa-equipe-member:nth-child(4) .description, .nossa-equipe-member:nth-child(5) .description {
+	left: auto;
+	right: 50%;
+}
