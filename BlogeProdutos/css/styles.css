@@ -46,10 +46,11 @@ body {
 
 #header h1 {
 	font-size: 54px;
+	line-height: 60px;
 }
 
 #header {
-	background: #ccc no-repeat fixed;
+	background: #ccc no-repeat fixed center;
 	background-size: cover;
 	color: #ffffff;
 	width: 100%;
@@ -142,3 +143,13 @@ body {
 	background-color: rgb(34, 34, 34);
 	padding: 10px;
 }
+
+@media (max-width: 992px) {
+	#header, #header nav {
+		text-align: center;
+	}
+}
+
+/*
+	Pode me apagar
+*/
